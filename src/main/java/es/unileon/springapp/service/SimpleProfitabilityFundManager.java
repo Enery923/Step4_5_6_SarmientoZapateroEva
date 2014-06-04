@@ -9,7 +9,7 @@ import es.unileon.springapp.domain.InvestmentFund;
 import es.unileon.springapp.repository.InvestmentFundDao;
 
 @Component
-public class SimpleProfitabilityFundManager implements DateFundManager {
+public class SimpleProfitabilityFundManager implements ProfitabilityFundManager{
 	
 	private static final long serialVersionUID = 1L;
 	

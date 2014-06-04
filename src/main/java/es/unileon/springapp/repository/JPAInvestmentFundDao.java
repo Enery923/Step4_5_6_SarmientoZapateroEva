@@ -10,6 +10,8 @@ import org.springframework.transaction.annotation.Transactional;
 
 import es.unileon.springapp.domain.InvestmentFund;
 
+
+
 @Repository(value="investmentFundDao")
 public class JPAInvestmentFundDao implements InvestmentFundDao {
 	
@@ -34,7 +36,5 @@ public class JPAInvestmentFundDao implements InvestmentFundDao {
     	em.merge(investFund);
 		
 	}
-	
-	
 
 }

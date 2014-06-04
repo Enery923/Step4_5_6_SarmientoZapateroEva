@@ -12,9 +12,7 @@ import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import es.unileon.springapp.service.DateFundManager;
 import es.unileon.springapp.service.ProfitabilityFundManager;
-import es.unileon.springapp.service.SetDate;
 import es.unileon.springapp.service.SetProfitability;
 
 

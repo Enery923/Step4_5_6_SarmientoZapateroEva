@@ -15,8 +15,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
-import es.unileon.springapp.service.DateFundManager;
 import es.unileon.springapp.service.ProfitabilityFundManager;
+import es.unileon.springapp.service.SimpleProfitabilityFundManager;
 
 @Controller
 public class ProfitabilityFundController {
@@ -41,4 +41,9 @@ public class ProfitabilityFundController {
     public void setProfitabilityFundManager(ProfitabilityFundManager profitabilityFundManager) {
         this.profitabilityFundManager = profitabilityFundManager;
     }
+
+//	public void setInvestmentFundManager(SimpleProfitabilityFundManager profitabilityFundManager) {
+//		this.profitabilityFundManager = profitabilityFundManager;
+//		
+//	}
 }
